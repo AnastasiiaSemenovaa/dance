@@ -1,8 +1,16 @@
 .workTable {
   background-color: #f3eeeb;
   width: 829px;
-  border-radius: 32px;
+  height: 593px;
 }
 #schedule {
   background-color: #1e1e1e;
+  width: 1280px;
+  height: 720px;
+}
+.shadowShedule {
+  position: relative;
+  left: 274px;
+  top: -560px;
+  right: 177px;
 }
