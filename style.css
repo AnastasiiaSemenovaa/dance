@@ -14,3 +14,28 @@
   top: -560px;
   right: 177px;
 }
+#carouselHero .carousel-inner img {
+  object-fit: cover;
+  object-position: center;
+  height: 90vh;
+  overflow: hidden;
+}
+.mainPic {
+  width: 67%;
+  height: 619px;
+}
+.mainPic2 {
+  width: 17%;
+  height: 619px;
+  position: absolute;
+  top: 88px;
+  left: 67%;
+}
+
+.mainPic3 {
+  width: 16%;
+  height: 619px;
+  position: absolute;
+  top: 88px;
+  left: 84%;
+}
