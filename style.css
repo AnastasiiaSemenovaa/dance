@@ -1,7 +1,80 @@
-.workTable {
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #1e1e1e;
+}
+li {
+  list-style-type: none;
+}
+[class*="__container"] {
+  max-width: 1206px;
+  /* 1176px width + 15px+15px( break points left and right) */
+  margin: 0px auto;
+}
+.wrapper {
+  overflow: hidden;
+  /* display: none; */
+  flex-direction: column;
+  min-height: 100%;
+}
+.header__container {
+  display: flex;
+  min-height: 101px;
+  align-items: center;
+}
+.menu {
+  flex: 1 1 auto;
+  padding: 0px 36px;
+  font-size: 18px;
+  line-height: 23px;
+}
+.menuNav {
+  display: flex;
+  justify-content: flex-end;
+}
+.menuNav a {
+  text-decoration: none;
+  color: #1e1e1e;
+  margin: 0px 36px 0px 0px;
+}
+.contactButton {
+  flex: 0 0 215px;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 18px;
+  height: 57px;
+  background-color: #361404;
+  line-height: 23px;
+  padding: 17px 25px;
+  border-radius: 20px;
+  /* transition: 0.3s ease 0s; */
+}
+.phone {
+  width: 17px;
+  height: 21px;
+}
+.buttonTel {
+  text-decoration: none;
+  color: #f3eeeb;
+}
+/* !!!!!!!!!!! поміняти */
+.contactButton:hover {
+  background-color: red;
+}
+
+@media (min-width: 390px) {
+  .logo {
+    width: 35px;
+    height: 22px;
+  }
+}
+
+/* .workTable {
   background-color: #f3eeeb;
   width: 829px;
   height: 593px;
+  z-index: 3;
 }
 #schedule {
   background-color: #1e1e1e;
@@ -13,6 +86,7 @@
   left: 274px;
   top: -560px;
   right: 177px;
+  z-index: 0;
 }
 #carouselHero .carousel-inner img {
   object-fit: cover;
@@ -38,4 +112,4 @@
   position: absolute;
   top: 88px;
   left: 84%;
-}
+} */
