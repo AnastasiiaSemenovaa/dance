@@ -22,77 +22,130 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header__container">
-        <img class="logo" src="img/JB.png" alt="logo" />
-        <nav class="menu">
-          <ul class="menuNav">
-            <li><a href="#owner">Про мене</a></li>
-            <li><a href="#dances">Тренування</a></li>
-            <li><a href="#schedule">Розклад</a></li>
-            <li><a href="#footer">Контакти</a></li>
-          </ul>
-        </nav>
-        <div class="contactButton">
-          <a href="tel:+380987762533" class="buttonTel"
-            ><img
-              class="phone"
-              alt="телефон"
-              src="img/telephone-fill 1.png"
-            />+380 (67) 569 39 19</a
-          >
+      <header>
+        <div class="header__container">
+          <img class="logo" src="img/JB.png" alt="logo" />
+          <nav id="main-menu">
+            <ul>
+              <li><a href="#owner">Про мене</a></li>
+              <li><a href="#dances">Тренування</a></li>
+              <li><a href="#schedule">Розклад</a></li>
+              <li><a href="#footer">Контакти</a></li>
+            </ul>
+          </nav>
+          <input type="checkbox" id="hamburger-input" class="burger-shower" />
+          <label id="hamburger-menu" for="hamburger-input">
+            <nav id="sidebar-menu">
+              <ul>
+                <li><a href="#owner">Про мене</a></li>
+                <li><a href="#dances">Тренування</a></li>
+                <li><a href="#schedule">Розклад</a></li>
+                <li><a href="#footer">Контакти</a></li>
+              </ul>
+              <br />ЛІНІЯ МАЄ БУТИ ГОРИЗОНТАЛЬНА here!!!!!
+              <ul class="menu-links">
+                <li>
+                  <img
+                    class="insta"
+                    alt="посилання на інстаграм"
+                    src="img/instagram.png"
+                  />
+                </li>
+                <li>
+                  <img class="phone" alt="номер телефону" src="img/phone.png" />
+                </li>
+                <li>
+                  <img class="mail" alt="електронна пошта" src="img/mail.png" />
+                </li>
+              </ul>
+            </nav>
+          </label>
+          <div class="contactButton">
+            <a href="tel:+380987762533" class="buttonTel"
+              ><img
+                class="phone"
+                alt="телефон"
+                src="img/telephone-fill 1.png"
+              />+380 (67) 569 39 19</a
+            >
+          </div>
         </div>
       </header>
       <main>
         <section id="owner">
-          <img class="mainPic" alt="головне фото" src="img/borpng.png" />
-          <p class="mainPageText">
-            Привіт, я Юля! Вже 5 років роблю дівчат здоровими та стрункими. Мої
-            тренування допомагають розвивати жіночність та впевненість, володіти
-            своїм тілом і відчувати свободу рухів. Записуйся і ми разом підемо
-            до твоєї цілі.
-          </p>
-          <button type="button">Стати кращою(ЛІНК НА ІНСТАГРАМ!!!!!!!</button>
-          <img class="mainPic2" alt="дівчина сидить" src="img/main-pic2.png" />
-          <img
-            class="mainPic3"
-            alt="дівчина робить стійку"
-            src="img/main-pic3.png"
-          />
+          <div class="owner__container">
+            <!-- <img class="mainPic" alt="головне фото" src="img/borpng.png" /> -->
+            <p class="mainPageText">
+              Привіт, я Юля! Вже 5 років роблю дівчат здоровими та стрункими.
+              Мої тренування допомагають розвивати жіночність та впевненість,
+              володіти своїм тілом і відчувати свободу рухів. Записуйся і ми
+              разом підемо до твоєї цілі.
+            </p>
+            <button type="button">Стати кращою(ЛІНК НА ІНСТАГРАМ!!!!!!!</button>
+            <img
+              class="mainPic2"
+              alt="дівчина сидить"
+              src="img/main-pic2.png"
+            />
+            <img
+              class="mainPic3"
+              alt="дівчина робить стійку"
+              src="img/main-pic3.png"
+            />
+          </div>
         </section>
-        <section id="dances">СЛАЙДЕР!!!!!</section>
-        <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/firstdance.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="img/seconddance.png" class="d-block w-100" alt="..." />
-            </div>
-            <div class="carousel-item">
-              <img src="img/main-pic3.png" class="d-block w-100" alt="..." />
-              <span>ksbdksabcaskjcbscbaskjbasjkbaskbasjk</span>
-              <button type="submit">HELLLLLLO</button>
+        <section id="dances">
+          <div class="dances__container">
+            СЛАЙДЕР!!!!!
+            <div
+              id="carouselHero"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/fondance.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="img/seconddance.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/fondance.jpg" class="d-block w-100" alt="..." />
+                  <span>ksbdksabcaskjcbscbaskjbasjkbaskbasjk</span>
+                  <button type="submit">HELLLLLLO</button>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselHero"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselHero"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselHero"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselHero"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+        </section>
         <section id="pose">
           <img
             class="dance1"
@@ -141,49 +194,55 @@
           />
         </section>
         <section id="advantages">
-          <h2>Контролюй своє тіло на повну!</h2>
-          <ul>
-            <li>
-              <img class="adv1" alt="контроль тіла" src="img/adv1.png" />
-              <h3>ГРУПОВІ ТА ІНДИВІДУАЛЬНІ ЗАНЯТТЯ</h3>
-              <p>
-                Знайди нових друзів та цікаве ком’юніті або займайся
-                індивідуально і забери всю увагу тренера собі :)
-              </p>
-            </li>
-            <li>
-              <img class="adv2" alt="дві локації" src="img/adv2.png" />
-              <h3>ДВІ ЛОКАЦІЇ</h3>
-              <p>
-                Hero Gym та локація на твій вибір для оренди чекає тебе. Вибирай
-                зручнішу! За деталями в дірект
-              </p>
-            </li>
-            <li>
-              <img class="adv3" alt="професійний тренер" src="img/adv3.png" />
-              <h3>ПРОФЕСІЙНИЙ ТРЕНЕР</h3>
-              <p>
-                Сертифікований тренер з досвідом створить атмосферу та налаштує
-                правильні тренування саме для тебе!
-              </p>
-            </li>
-            <li>
-              <img class="adv4" alt="ефективні тренування" src="img/adv4.png" />
-              <h3>ЕФЕКТИВНІ ТРЕНУВАННЯ</h3>
-              <p>
-                Розвинуть супер гнучке та підтягнуте тіло, внутрішню енергію та
-                гармонію. Покращать здоров’я та володіння своїм тілом
-              </p>
-            </li>
-            <li>
-              <img class="adv5" alt="вайбова музика" src="img/adv5.png" />
-              <h3>ВАЙБОВА МУЗИКА</h3>
-              <p>
-                Спеціально підібрані плейлисти, щоб відчувати ще більшу
-                впевненість в собі та відчути свободу рухів
-              </p>
-            </li>
-          </ul>
+          <div class="advantages__container">
+            <ul>
+              <li><h2>Контролюй своє тіло на повну!</h2></li>
+              <li>
+                <img alt="контроль тіла" src="img/adv1.png" />
+                <h3>ГРУПОВІ ТА ІНДИВІДУАЛЬНІ ЗАНЯТТЯ</h3>
+                <p>
+                  Знайди нових друзів та цікаве ком’юніті або займайся
+                  індивідуально і забери всю увагу тренера собі :)
+                </p>
+              </li>
+              <li>
+                <img class="adv2" alt="дві локації" src="img/adv2.png" />
+                <h3>ДВІ ЛОКАЦІЇ</h3>
+                <p>
+                  Hero Gym та локація на твій вибір для оренди чекає тебе.
+                  Вибирай зручнішу! За деталями в дірект
+                </p>
+              </li>
+              <li>
+                <img class="adv3" alt="професійний тренер" src="img/adv3.png" />
+                <h3>ПРОФЕСІЙНИЙ ТРЕНЕР</h3>
+                <p>
+                  Сертифікований тренер з досвідом створить атмосферу та
+                  налаштує правильні тренування саме для тебе!
+                </p>
+              </li>
+              <li>
+                <img
+                  class="adv4"
+                  alt="ефективні тренування"
+                  src="img/adv4.png"
+                />
+                <h3>ЕФЕКТИВНІ ТРЕНУВАННЯ</h3>
+                <p>
+                  Розвинуть супер гнучке та підтягнуте тіло, внутрішню енергію
+                  та гармонію. Покращать здоров’я та володіння своїм тілом
+                </p>
+              </li>
+              <li>
+                <img class="adv5" alt="вайбова музика" src="img/adv5.png" />
+                <h3>ВАЙБОВА МУЗИКА</h3>
+                <p>
+                  Спеціально підібрані плейлисти, щоб відчувати ще більшу
+                  впевненість в собі та відчути свободу рухів
+                </p>
+              </li>
+            </ul>
+          </div>
         </section>
         <section id="schedule">
           <div class="workTable">
@@ -232,12 +291,11 @@
             alt="фон для розкладу"
             src="img/schdl-shadow.png"
           />
-          + тінь( фотка)
         </section>
       </main>
-      <footer id="footer">
+      <footer id="footer" class="footer__container">
         <h2>КОНТАКТИ</h2>
-        <adress>
+        <adress class="location">
           <p>
             <img
               class="contact1"
@@ -261,9 +319,10 @@
             class="contact3"
             alt="фотографія тренера"
             src="img/contact3.png"
+            width="206px"
           />
         </adress>
-        <ul>
+        <ul class="contacts">
           Залишились запитання?
           <li>
             <img
@@ -275,7 +334,7 @@
               href="#"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              class="insta"
+              class="instaLink"
               >juliya_borovlyova</a
             >
           </li>
@@ -285,7 +344,7 @@
               href="tel:+380987762533"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              class="phone"
+              class="phoneLink"
               >+380987762533</a
             >
           </li>
@@ -295,7 +354,7 @@
               href="mailto:98borovlyova98@gmail.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              class="mail"
+              class="mailLink"
               >98borovlyova98@gmail.com</a
             >
           </li>
