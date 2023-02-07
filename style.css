@@ -488,7 +488,7 @@ bottom:180px;
 .adv-item1, .adv-item2, .adv-item3, .adv-item4, .adv-item5{
    text-align: center;
 }
-.adv2{font-size: 3em;
+.adv2, .adv5{font-size: 3em;
 }
 .advantages__container h3{
 text-align:center;}
@@ -543,7 +543,7 @@ text-align:center;}
   left: 110px;
   top: 70px;
 }
-
+.mobYes{display: none;}
 
 .footer__container {
   display: block;
@@ -590,7 +590,7 @@ text-align:center;}
   padding-left: 140px;
   padding-bottom: 10px;
 }
-.ins{font-size: 1.5em
+.ins{font-size: 1.5em;
 }
 .contacts li {
   display: inline-block;
@@ -862,13 +862,11 @@ line-height: 18px;
 
 
 
-        .advantages__container {
-          min-height: 720px;
-          font-size: 15px;
-          background-color: #c3b2a8;
-          text-align:justify;
-         
-        
+  .advantages__container {
+    min-height: 720px;
+     font-size: 15px;
+     background-color: #c3b2a8;
+     text-align:justify; 
         }
         .advantages__container h2 {
           font-size: 22px;
@@ -897,14 +895,15 @@ line-height: 18px;
         }
         .adv-item5 {
           background: #1E1E1E;
+          color: #FFFFFF
+
           ;
         }
 
-.adv2{
+.adv2, .adv5{
   display:block;
   text-align: center;
-  
-}
+  }
 
         .advantages__container h3{
           font-size: 14px;
@@ -927,6 +926,51 @@ line-height: 18px;
          }
 
 
+         .schedule__container {
+          width:100vh;
+         min-height: 620px;
+         font-size: 14px;
+          line-height: 18px;       
+        }
+        .workTable {
+          min-width: 250px;
+          min-height: 480px;
+          z-index: 3;
+          border-radius: 32px;
+          margin: 40px 10px;
+        }
+        .workTable th {
+          font-size: 22px;
+          line-height: 28px;
+          padding-top: 10px;
+          text-align: left;
+        }
+        .workTable table {
+          margin: 25px 20px;
+          text-align: left;
+        }
+        .shadowShedule {display:none;
+          /* z-index: 2;
+          min-width: 320px;
+          min-height: 480px;
+          left: 110px;
+          top: 70px; */
+        }
+         .button{
+text-align: left;
+         }
+.mobNo{display:none;}
+.mobYes{ 
+  display:block;
+  width:250px;
+   color: #b36445;
+  font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+padding-top:10px;
+
+}
+
 
 
 
@@ -936,7 +980,8 @@ line-height: 18px;
   .contacts {
     padding-bottom: 20px;
     text-align: left;
-    padding-left: 80px;
+    padding-left: 80px; display: block;
+    margin:0 -50px;
   }
   .footer__container h3 {
     padding-left: 10px;
@@ -944,9 +989,9 @@ line-height: 18px;
     padding-top: 100px;
   }
   .contacts li {
-    padding-bottom: 20px;
-    font-size: 14px;
-    display: block;
+    padding-bottom: 10px;
+    font-size: 12px;
+   
   }
   .footer__container h2 {
     font-size: 22px;
@@ -958,4 +1003,7 @@ line-height: 18px;
     font-size: 20px;
     padding-bottom: 10px;
   }
+  .contact2, .contact3{
+    display: block;
+    margin: 0 auto;}
 }
