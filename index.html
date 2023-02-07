@@ -18,7 +18,9 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+       <link rel="stylesheet" href="style.css" />
+       <script src="https://kit.fontawesome.com/a8900ef949.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <div class="wrapper">
@@ -74,9 +76,9 @@
       <main>
         <section id="owner">
           <div class="owner__container">
-            <div class="pic">
             <img class="mainPic" alt="головне фото" src="img/borpng.png" width="855">
-              <p class="mainPageText">Привіт, я Юля! Вже 5 років роблю дівчат здоровими та стрункими.
+              <p class="mainPageText">Привіт, я Юля! 
+                <br/><br/>
               Мої тренування допомагають розвивати жіночність та впевненість,
               володіти своїм тілом і відчувати свободу рухів. Записуйся і ми
               разом підемо до твоєї цілі.
@@ -86,7 +88,7 @@
               class="buttonMain" target="_blank"
               >Cтати кращою
             </a>
-            </div>
+          
             <img
               class="mainPic2"
               alt="дівчина сидить"
@@ -108,7 +110,7 @@
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="img/fondance.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/fondance.jpg" class=" fon d-block w-10" alt="..." />
                   <div>
                     <img src="img/slaider1.png" class="slaider1Image">
                     <h3 class="slaider1H3">Барре</h3>
@@ -121,7 +123,7 @@
               ></div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/fondance.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/fondance.jpg" class="d-block w-10" alt="..." />
                   <div>
                     <img src="img/slaider2.png" class="slaider2Image">
                     <h3 class="slaider2H3">Стретчинг</h3>
@@ -135,7 +137,7 @@
               ></div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/fondance.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/fondance.jpg" class="d-block w-10" alt="..." />
                   <div>
                     <img src="img/slaider3.png" class="slaider3Image">
                     <h3 class="slaider3H3">Шпагат</h3>
@@ -149,7 +151,7 @@
               ></div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/fondance.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/fondance.jpg" class="d-block w-10" alt="..." />
                   <div>
                     <img src="img/slaider4.png" class="slaider4Image">
                     <h3 class="slaider4H3">Танці</h3>
@@ -163,7 +165,7 @@
               ></div>
                 </div>
                 <div class="carousel-item">
-                  <img src="img/fondance.jpg" class="d-block w-100" alt="..." />
+                  <img src="img/fondance.jpg" class="d-block w-10" alt="..." />
                   <div>
                     <img src="img/slaider5.png" class="slaider5Image">
                     <h3 class="slaider5H3">Функціональне тренування</h3>
@@ -202,7 +204,7 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
-          </div>
+      </div>
         </section>
         <section id="pose">
           <div class="pose__container">
@@ -266,7 +268,8 @@
                 </p>
               </div>
               <div class="adv-item2">
-                <img class="adv2" alt="дві локації" src="img/adv2.png" />
+                <div class="adv2"><i class="fa-sharp fa-solid fa-location-dot"></i> 
+                  <!-- <img class="adv2" alt="дві локації" src="img/adv2.png" />--></div> 
                 <h3>ДВІ ЛОКАЦІЇ</h3>
                 <p>
                   Hero Gym та локація на твій вибір для оренди чекає тебе.
@@ -363,6 +366,7 @@
         <h2>КОНТАКТИ</h2>
         <adress class="location">
           <span>
+           
             <img
               class="contact1"
               alt="іконка місцезнаходження"
@@ -391,38 +395,45 @@
         <ul class="contacts">
           <h3 id="quest">Залишились запитання?</h3>
           <li class="instaLink">
-            <img
+            <label class="ins" >
+              <i class="fa-brands fa-instagram"></i>
+            <!-- <img
               class="insta"
               alt="посилання на інстаграм"
               src="img/instagram.png"
-            />
+            />-->
             <a
               href="https://instagram.com/juliya_borovlyova?igshid=Zjc2ZTc4Nzk="
               target="_blank"
               rel="noopener noreferrer nofollow"
               
               >juliya_borovlyova</a
-            >
+            ></label> 
           </li>
           <li>
-            <img class="tel" alt="номер телефону" src="img/phone.png" />
+            <!-- <img class="tel" alt="номер телефону" src="img/phone.png" /> -->
+            
+            <label class="ins" >
+              <i class="fa-solid fa-mobile-screen-button"></i>
             <a
               href="tel:+380 67 569 39 19"
               target="_blank"
               rel="noopener noreferrer nofollow"
               class="phoneLink"
               >+380 67 569 39 19</a
-            >
+            ></label>
           </li>
           <li>
-            <img class="mail" alt="електронна пошта" src="img/mail.png" />
+            <label class="ins" >
+            <!-- <img class="mail" alt="електронна пошта" src="img/mail.png" /> -->
+            <i class="fa-regular fa-envelope"></i>
             <a
               href="mailto:98borovlyova98@gmail.com"
               target="_blank"
               rel="noopener noreferrer nofollow"
               class="mailLink"
               >98borovlyova98@gmail.com</a
-            >
+            ></label>
           </li>
         </ul>
       </footer>
