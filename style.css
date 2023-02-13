@@ -715,13 +715,13 @@ li {
     height: 185px;
     text-align: justify;
     top: 320px;
-    left: 250px;
+    left: 200px;
     z-index: 8;
   }
   .buttonMain {
     font-size: 14px;
     top: 460px;
-    left: 250px;
+    left: 200px;
     right: 250px;
     width: 130px;
     height: 40px;
@@ -736,17 +736,6 @@ li {
     background-image: url(img/fondance.jpg);
   }
 
-  .buttonSlaider {
-    padding: 14px 38px;
-    display: inline;
-    position: absolute;
-    top: 640px;
-    left: 180px;
-    font-size: 14px;
-    line-height: 15px;
-    width: 140px;
-    height: 45px;
-  }
   .carousel-control-prev-icon {
     position: absolute;
     top: 250px;
@@ -756,7 +745,7 @@ li {
     display: inline;
     top: 250px;
     position: absolute;
-    right: 850px;
+    right: 900px;
   }
   .slaider1Image,
   .slaider2Image,
@@ -767,7 +756,7 @@ li {
     height: 340px;
     position: absolute;
     top: 80px;
-    left: 120px;
+    left: 100px;
   }
   .slaider1H3,
   .slaider2H3,
@@ -777,14 +766,14 @@ li {
     line-height: 35px;
     position: absolute;
     top: 30px;
-    left: 200px;
+    left: 180px;
   }
   .slaider2H3 {
     font-size: 24px;
     line-height: 35px;
     position: absolute;
     top: 30px;
-    left: 180px;
+    left: 160px;
   }
 
   .slaider5H3 {
@@ -805,7 +794,7 @@ li {
     height: 120px;
     position: absolute;
     top: 440px;
-    left: 100px;
+    left: 80px;
     text-align: justify;
   }
   .slaider1Price,
@@ -817,7 +806,7 @@ li {
     line-height: 18px;
     position: absolute;
     top: 600px;
-    left: 180px;
+    left: 150px;
   }
 
   .slaider3Price {
@@ -826,9 +815,19 @@ li {
     line-height: 18px;
     position: absolute;
     top: 610px;
-    left: 190px;
+    left: 150px;
   }
-
+  .buttonSlaider {
+    padding: 14px 38px;
+    display: inline;
+    position: absolute;
+    top: 640px;
+    left: 150px;
+    font-size: 14px;
+    line-height: 15px;
+    width: 140px;
+    height: 45px;
+  }
   .pose__container {
     min-height: 700px;
   }
@@ -837,7 +836,7 @@ li {
     position: absolute;
     padding: 5px 10px;
     display: block;
-    margin: 10px 0px 400px 350px;
+    margin: 10px 0px 400px 300px;
     width: 25%;
   }
   .dance2 {
@@ -881,7 +880,7 @@ li {
   .dance7 {
     padding: 75px 10px;
     display: block;
-    margin: 250px 0px 0px 350px;
+    margin: 250px 0px 0px 300px;
     width: 25%;
   }
 
