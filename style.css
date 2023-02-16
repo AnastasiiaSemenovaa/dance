@@ -93,7 +93,7 @@ li {
   color: #b36445;
 }
 
-#hamburger-input {
+/* #hamburger-input {
   display: none;
 }
 
@@ -160,7 +160,7 @@ li {
 #hamburger-input:checked + #hamburger-menu #sidebar-menu {
   visibility: visible;
   right: 0;
-}
+} */
 .menu-links li {
   display: inline;
 }
@@ -172,7 +172,7 @@ li {
 .mainPic2 {
   width: 216px;
   position: absolute;
-  min-height: 619px;
+  min-height: 622px;
   top: 100px;
   left: 66%;
 }
@@ -224,7 +224,9 @@ li {
   min-height: 720px;
   align-items: center;
   background-image: url(img/fondance.jpg);
+  width: 100%;
 }
+
 .buttonSlaider {
   color: #ffffff;
   background: #361404;
@@ -642,18 +644,20 @@ li {
 }
 @media screen and (max-width: 750px) {
   .header__container {
-    position: fixed;
-    background-color: #ffffff;
-    z-index: 12;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
   }
   #main-menu {
     display: none;
   }
-  #hamburger-menu {
+
+  /* #hamburger-menu {
+     .contacts :not(#quest) :hover {
     display: inline;
     margin-right: 37px;
     background-color: red;
-  }
+  } */
 
   .logo {
     width: 35px;
@@ -668,9 +672,9 @@ li {
     font-size: 12px;
     align-items: center;
     justify-content: center;
-    margin: 10px 70px;
+    margin: 10px 100px;
     border-radius: 14px;
-    flex: 0 0 180px;
+    flex: 0 0 200px;
     display: block;
   }
   .phone {
@@ -679,7 +683,7 @@ li {
   }
   .owner__container {
     display: flex;
-    min-height: 1220px;
+    min-height: 1020px;
   }
 
   .mainPic {
@@ -694,7 +698,7 @@ li {
     width: 50%;
     position: absolute;
     height: 410px;
-    top: 600px;
+    top: 500px;
     left: 0px;
     z-index: 3;
   }
@@ -703,7 +707,7 @@ li {
     width: 50%;
     height: 410px;
     position: absolute;
-    top: 597px;
+    top: 500px;
     left: 50%;
     z-index: 3;
   }
@@ -739,7 +743,7 @@ li {
   .carousel-control-prev-icon {
     position: absolute;
     top: 250px;
-    left: 50px;
+    left: 40px;
   }
   .carousel-control-next-icon {
     display: inline;
@@ -756,7 +760,7 @@ li {
     height: 340px;
     position: absolute;
     top: 80px;
-    left: 100px;
+    left: 95px;
   }
   .slaider1H3,
   .slaider2H3,
@@ -794,7 +798,7 @@ li {
     height: 120px;
     position: absolute;
     top: 440px;
-    left: 80px;
+    left: 70px;
     text-align: justify;
   }
   .slaider1Price,
@@ -806,7 +810,7 @@ li {
     line-height: 18px;
     position: absolute;
     top: 600px;
-    left: 150px;
+    left: 130px;
   }
 
   .slaider3Price {
@@ -822,7 +826,7 @@ li {
     display: inline;
     position: absolute;
     top: 640px;
-    left: 150px;
+    left: 130px;
     font-size: 14px;
     line-height: 15px;
     width: 140px;
